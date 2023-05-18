@@ -6,7 +6,7 @@ import (
 	"testing"
 )
 
-func TestContext(t *testing.T) {
+func TestContexts(t *testing.T) {
 	background := context.Background()
 	fmt.Println(background)
 
